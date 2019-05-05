@@ -22,7 +22,7 @@ $ pip install -r requirements.txt
 
 # in editor:
 generateJP.py line:5
-export_8x8_dot_matlix_data.py line:6
+create_8x8_dot_matlix_data.py line:6
 
 from: `FONT = ImageFont.truetype('~/Library/Fonts/misaki_gothic.ttf', SIZE)`
 to: `FONT = ImageFont.truetype('/path/to/misaki_gothic.ttf', SIZE)`
@@ -34,7 +34,7 @@ to: `FONT = ImageFont.truetype('/path/to/misaki_gothic.ttf', SIZE)`
 
 Generate Japanese Hiragana(ぁ〜ん) PNG files in current directory (dist by text/)
 
-### export_8x8_dot_matlix_data.py
+### create_8x8_dot_matlix_data.py
 
-you type exporting word: Alphabet, Number, Japanese(Hiragana, Katakana, Kanji(ひらがな, カタカナ, 漢字))
-So, export hex numbers.
+you type creating word: Alphabet, Number, Japanese(Hiragana, Katakana, Kanji(ひらがな, カタカナ, 漢字))
+So, create hex numbers.
